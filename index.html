@@ -1,0 +1,113 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title> Sheyla's Amazing Website</title>
+        <link rel="stylesheet" href="style.css"> 
+        <style>
+            body {
+                background: rgb(236, 45, 230);
+                color: rgb(45, 45, 45);
+                padding: 10px;
+                font-family: arial;
+            }
+            #all-contents {
+              max-width: 800px;
+                margin: auto;
+            }
+         
+            /* navigation menu */
+            nav {
+                background: rgb(255, 255, 255);
+               margin: 0 auto;
+                display: flex;
+                padding: 10px;
+            }
+            h1 {
+                display: flex;
+                align-items: center;
+                color: black;
+                flex: 1;
+                margin: 0;
+            }
+            #nav-ul {
+                list-style-image: none;
+            }
+            .nav-li {
+                display: inline-block;
+                padding: 0 10px;
+            }
+            a {
+                text-decoration: none;
+                color: rgb(16, 15, 15);
+            }
+         
+            /* main container area beneath menu */
+            main {
+                background: rgb(255, 254, 254);
+                display: flex;
+            }
+            .sidebar {
+                margin-right: 25px;
+                padding: 10px;
+            }
+            .sidebar-img {
+                width: 200px;
+            }
+            .content {
+                flex: 1;
+                padding: 15px;
+            }
+            #interests {
+                border: 4px silver ridge;
+                padding: 8px;
+            }
+            h2, h3 {
+                margin: 0px;
+            }
+         </style>
+    </head>
+   
+    <body>
+     <!-- Visible HTML elements GO HERE  -->
+     <div id="all-contents">
+        <nav>
+            <h1>Sheyla's Website</h1>
+            <ul id="nav-ul">
+                <li class="nav-li">
+                  <a href="index.html"> Home </a>
+                </li>
+                <li class="nav-li">
+                  <a href="portfolio.html"> Portfolio </a>
+                </li>
+            </ul>
+        </nav>
+
+
+        <main>
+<!-- Sidebar section -->
+<div "sidebar">
+    <img "sidebar-img" src="https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg?auto=compress&cs=tinysrgb&w=600"
+</div>
+
+<!-- Content section -->
+<div class="content">
+    <h2> Sheyla Bello </h2>
+    <p> Student - St. Amant High </p>
+     <!-- Interests section -->
+     <div "interests">
+     </div>
+     <h3>Interests</h3>
+     <ul>
+         <li>Shopping</li>
+         <li>Work</li>
+         <li>Food</li>
+     </ul>
+ </div>
+</div>
+</div>
+        </main>
+    </div>
+    </body>
+</html>
+
+
