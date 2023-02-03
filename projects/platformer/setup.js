@@ -5,11 +5,18 @@ const friction = 1.5;          // how much the player is slowed each frame
 const maxSpeed = 8;            // maximum horizontal speed, not vertical
 const playerJumpStrength = 12; // this is subtracted from the speedY each jump
 const projectileSpeed = 8;     // the speed of projectiles
+/*```javascript
+/////////////////////////////////////////////////   
+//////////ONLY CHANGE BELOW THIS POINT///////////
+/////////////////////////////////////////////////
+
+createCollectable(type.steve, 200, 170, 6, 0.7); //your example function call
 
 /////////////////////////////////////////////////
 //////////ONLY CHANGE ABOVE THIS POINT///////////
 /////////////////////////////////////////////////
 
+*/
 // Base game variables
 const frameRate = 60;
 const playerScale = 0.8; //makes the player just a bit smaller. Doesn't affect the hitbox, just the image
