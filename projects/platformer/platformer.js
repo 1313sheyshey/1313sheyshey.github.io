@@ -20,7 +20,7 @@ $(function () {
     createPlatform(-50, canvas.height - 10, canvas.width + 100, 200); //right
     createPlatform(-50, -50, 50, canvas.height + 500); //bottom
     createPlatform(canvas.width, -50, 50, canvas.height + 100);
-
+    
     /////////////////////////////////////////////////
     //////////ONLY CHANGE BELOW THIS POINT///////////
     /////////////////////////////////////////////////
@@ -34,6 +34,9 @@ $(function () {
     createPlatform (250,250,100,20)
     createPlatform (150,550,100,20)
     createPlatform (400,450,100,20)
+    createPlatform (300,680,150,20)
+    createPlatform (650,550,150,20)
+    createPlatform (900,650,100,20)
     // TODO 2
     // Create collectables
     createCollectable("steve", 450, 300);
